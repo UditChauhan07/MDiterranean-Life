@@ -1,0 +1,2207 @@
+
+@font-face {
+  font-family: "NeueHaasUnica";
+  src: url(../../public/fonts/NeueHaasUnica-Regular.ttf);
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  src: url(../../public/fonts/NeueHaasUnica-Medium.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+/* vinod :start */
+
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css"); */
+
+
+
+
+
+
+ /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+
+.hero-image {
+  background-image: url(../Images/hero-01.png);
+  height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image2 {
+  background-image: url(../Images/hero-02.png);
+  height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 40%;
+  background-color: #000;
+
+}
+
+.hero-text h1 {
+  font-family: "DidotL06" !important;
+  font-size: 40px !important;
+  margin: 18px 0px;
+}
+
+.BoxHWImg {
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+}
+
+.BoxHWImg .w-100{
+  height: 100%;
+}
+
+.PaddingTB {
+  padding: 0px 0;
+  margin: 61px 0;
+}
+
+
+
+.Box1 {
+ 
+  height: 570px;
+  width: fit-content;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.Box2 {
+  height: 570px;
+}
+
+.Box3 {
+  height: 570px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Box1 h1 {
+  font-family: "DidotL06" !important;
+  font-size: 3rem !important;
+  margin: 18px 0px;
+  text-transform: uppercase !important;
+}
+
+.Box-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 80%;
+
+}
+
+.Box-text h1 {
+  font-family: "DidotL06" !important;
+  font-size: 3rem !important;
+
+  text-transform: uppercase !important;
+}
+
+.mBtom {
+  margin-bottom: 5.5rem;
+}
+
+.CheckAvailability {
+  background: #ffffffad;
+  position: relative;
+  bottom: 83px;
+  border-radius: 12px;
+  padding: 50px 50px 20px 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+  margin: 52px 0 0 0;
+}
+
+.bg-white {
+  background-color: #fff !important;
+  padding: 8px 15px;
+  border-radius: 10px 0px 0px 10px;
+  /* border-right: 1px solid #9C9C9C; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+}
+
+.bg-white02 {
+  background-color: #fff !important;
+  padding: 8px 15px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 8px 0px 8px 0px;
+
+}
+
+.react-datepicker__input-container input {
+  width: 100px !important;
+  border-color: #fff !important;
+  border-image: unset !important;
+}
+
+.border0 {
+  border: 0 !important;
+}
+
+.InnerIcon img {
+  margin: 10px 6px;
+}
+
+/* :focus-visible {
+  outline: unset;
+} */
+
+.bg-white::after {
+  content: "";
+  color: #9C9C9C;
+  margin: auto;
+}
+
+.bg-white03 {
+  background-color: #fff !important;
+  padding: 8px 15px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+}
+
+.buttonBlack {
+  top: 47px;
+  position: relative;
+}
+
+.buttonBlack button {
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-family: "NeueHaasUnica";
+  padding: 8px 20px;
+}
+
+.buttonBlack button:hover {
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.InnerIcon {
+     display: flex;
+    align-items: center;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.Adults {
+  margin-bottom: 0;
+  font-family: "NeueHaasUnica";
+  color: #2A2A2E;
+  font-size: 16px;
+}
+
+.Rooms {
+  margin-bottom: 0;
+  font-family: "NeueHaasUnica";
+  color: #9C9C9C;
+  font-size: 14px;
+
+}
+
+.AddGuestandRoom {
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+  border-radius: 20px;
+  position: absolute;
+  padding: 20px;
+  bottom: -210px;
+  z-index: 1;
+  right: 108px;
+}
+
+
+.check_detaipl h3{
+  color: #000;
+font-family: "HTFDidot";
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 66.667% */
+text-transform: capitalize;
+margin-bottom: 30px;
+line-height: 1.0;
+}
+ 
+.check_detaipl p{
+  color: #000;
+text-align: justify;
+font-family: "HTFDidot";
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 133.333% */
+letter-spacing: 0.54px;
+margin: 0 0 20px 0;
+}
+
+.check_detaipl20{
+  margin: 40px 0 0 0;
+}
+
+.capp111 img{
+  width: 100%;
+  margin: 20px 0 ;
+}
+
+/* vinod */
+
+.beachl {
+
+  margin: 30px 15px;
+  /* width: 570px; */
+}
+
+.beachl2 {
+  height: 570px;
+  width: 100%;
+}
+
+.beachbig_img {
+
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.beachl .beachl {
+  display: flex;
+}
+
+.beachl1 {
+  padding: 20px 30px;
+  background-color: #000;
+}
+
+.beachl .beachl1 .img_contron_beach {
+  display: flex;
+  margin: 0 10px 0 0;
+  align-items: baseline;
+
+
+}
+
+.beachl .beachl1 .img_contron_beach P {
+  margin: 0;
+}
+
+.beachl .beachl1 .img_contron_beach img {
+
+  margin: 0 10px 0 0;
+
+}
+
+.beachl h3 {
+  color: #FFF;
+  font-family: "NeueHaasUnicaM";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.beachl p {
+  color: #FFF;
+  font-family: "NeueHaasUnica";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.beachl2 {
+  position: relative;
+}
+
+
+i.fa.fa-arrow-up {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 35px;
+  padding: 10px;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+
+}
+
+.arrowup {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 46px;
+  bottom: 22px;
+  right: 22px;
+  display: flex;
+}
+
+.arrowup img {
+  margin: auto;
+}
+
+
+/* detailPage_listing */
+
+
+
+.filter_main .filter_write {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.popular_filter {
+  padding: 20px;
+  border-bottom: 1px solid #E6E6E6;
+  line-height: 1.0;
+}
+
+.filter_write p {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 133.333% */
+  text-transform: capitalize;
+  margin: 0;
+}
+
+
+.filter_write button {
+  color: #9D9D9D;
+  text-align: right;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  text-transform: capitalize;
+  border: none;
+  background-color: #ffff;
+
+}
+
+.filter_main {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.popular_filter p {
+  color: #000;
+  font-family: "NeueHaasUnicaM" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  text-transform: capitalize;
+}
+
+.popular_filter label {
+  color: #141822;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  text-transform: capitalize;
+  margin: 0 0 0 0px;
+  display: flex;
+}
+
+.popular_filter label input{
+  margin: 0 10px 0 0;
+}
+
+.popular_filter input[type='checkbox']::after {
+    border-color: #5c6Bc0;
+
+}
+
+
+
+
+.stars1 label i {
+  color: #FFC35B;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 1px;
+}
+
+.det_cen i {
+  color: #FFC35B;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 1px;
+}
+
+.det_cen .starnec {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnicaM";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 0 7px;
+}
+
+.det_cen h3 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+
+}
+
+.det_icon_map {
+  display: flex;
+  margin: 20px 0;
+}
+
+.det_icon_map img {
+  width: 16px;
+  height: fit-content;
+}
+
+.det_icon_map p {
+  margin: 0 0 0 8px;
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.det_cen .couple_fred {
+  color: #9D9D9D;
+  text-align: center;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 2px;
+  border: 0.8px solid #9D9D9D;
+  background: rgba(217, 217, 217, 0.00);
+  padding: 4px 8px;
+  /* margin: 15px 20px; */
+
+}
+
+.det_cen .couple_fred_para {
+  color: #222;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+  margin: 98px 0 0 0;
+  /* margin: 30px 0 0 0; */
+}
+
+.main_det {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 0px 0 30px 0;
+}
+
+.main_det_side p {
+  color: #56008C;
+  text-align: center;
+  font-family: "NeueHaasUnicaM";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 200% */
+  text-transform: capitalize;
+  border-radius: 141px;
+  background: #F4E2FF;
+  padding: 5px;
+  margin: 0 0 157px 0;
+
+}
+
+.main_det_side .side_span1 {
+  color: #9D9D9D;
+  text-align: right;
+  font-family: "NeueHaasUnica";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+}
+
+.main_det_side .side_span2 {
+  color: #000;
+  text-align: right;
+  font-family: "NeueHaasUnicaM";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_det_side .side_span3 {
+  color: #9D9D9D;
+  text-align: right;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_det_side .side_span4 {
+  color: #9D9D9D;
+  text-align: right;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_det_side .side_span5 {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_det_side {
+  /* padding: 20px 17px 0px 0px; */
+  text-align: end;
+}
+
+.det_cen {
+  width: 95%;
+  border-right: 1px solid #E6E6E6;
+  padding: 0 20px 0 0;
+}
+
+
+
+/* travel itinary */
+
+.travel_col_1 {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+
+  margin: 0 0 10px 0;
+}
+
+.travel_col_2 {
+  padding: 28px;
+}
+
+.travel_iti_guest {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 28px;
+  margin: 45px 0 0 0;
+}
+
+.travel_col_1 .travl h3 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 15px 0px 0;
+}
+
+
+.moopend {
+  text-align: end;
+}
+
+.moopend label {
+  display: inline-block;
+
+ 
+}
+
+.travl {}
+
+.travel_col_1 .travl i {
+  color: #FFC35B;
+  margin: 0 0 0 8px;
+}
+
+.travel_col_1 .travl p {
+  color: #222;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 0 8px 0;
+}
+
+.travl {
+  border-bottom: 1px solid #D9D9D9;
+  margin: 0 0 12px 0;
+}
+
+.trav2 p {
+  color: #222;
+  text-align: justify;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 21px 0;
+  /* 150% */
+}
+
+.trav2 .travl_ul {
+  display: flex;
+  
+}
+.sylkj h4{
+  color: #222;
+text-align: center;
+font-family: "NeueHaasUnicaM";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+margin-bottom: 10px;
+
+}
+
+.icoo_star i{
+  color: #FFC35B;
+}
+.icoo_star{
+  margin: 0 0 0 15px;
+}
+
+.trav2 .travl_ul .travl_contro h4 {
+  color: #222;
+  text-align: justify;
+  font-family: "NeueHaasUnicaM";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+}
+
+.trav2 .travl_ul .travl_contro ul li {
+  color: #222;
+  text-align: justify;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.travl_contro.ml{
+  margin-left: 75px;
+}
+
+
+
+.travel_iti_guest h3 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 23px;
+
+}
+
+.travel_iti_guest label {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 23px 0 5px 0;
+}
+
+.travel_iti_guest label span {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.travel_iti_guest input {
+  border-radius: 4px;
+  background: #EDEDED;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 37px;
+  padding: 0 0 0 20px;
+}
+
+.travel_iti_guest .btn-red_side {
+  border: none;
+  background-color: transparent;
+  text-align: start;
+  margin: 18px 0 0 0;
+  color: #8D2929;
+  font-family: "NeueHaasUnicaM";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.travel_iti_main .btn_last {
+  border-radius: 10px;
+  border: 2px solid #000;
+  background: #000;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  text-align: center;
+  font-family: "NeueHaasUnica";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 21px;
+  width: 100%;
+  margin: 21px 0 21PX 0;
+}
+
+.check_mainn h5 {
+  color: #A3A3A3;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 10px 0;
+}
+
+.check_mainn h4 {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 0px 0;
+}
+
+.check_mainn {
+  border-bottom: 1px solid #D9D9D9;
+  ;
+  margin: 0 0 10px 0;
+
+}
+
+.check_main01 {
+  padding: 23px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 0 0 23px 0
+}
+
+.check_main01 .check_man01 h3 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+
+}
+
+.check_main01 .check_man01 p {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 !important;
+    margin: 0 0 0px 0;
+}
+
+.check_main01 .check_man01 .buttoom_control {
+  display: flex;
+  margin: 0 0 23px 0;
+}
+
+.check_main01 .check_man01 .buttoom_control .buttoom_1 {
+  border-radius: 4px;
+  border: 0.5px solid #9D9D9D;
+  background: #FFF;
+  color: #11AA39;
+  text-align: center;
+  font-family: "NeueHaasUnicaM";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding:7px 12px;
+  margin: 0 20px 0 0;
+}
+
+.check_man01 h5 {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px 0 0 0;
+}
+
+.check_parking {
+  display: flex;
+  margin-bottom: 0 !important;
+  ;
+  JUSTIFY-CONTENT: space-between;
+  align-items: center;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 4px 0;
+  margin: 20px 0 0 0;
+}
+
+.check_parking P:last-child {
+  color: #11AA39;
+  text-align: right;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+section.travel_itinary {
+  margin: 35px 0 100px 0;
+}
+
+section.credit_12 {
+  margin: 34px 0;
+}
+
+
+
+/* oewjhiheuo */
+
+
+.credit_12 input[type=text] {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
+  background: #FFF;
+  height: 52px;
+  padding: 0 0 0 15px;
+
+}
+
+.credit_12 label {
+  margin: 0px 0 3px 0;
+}
+
+
+.credit_12 .custom-select {
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
+  background: #FFF;
+  height: 52px;
+  padding: 0 0 0 15px;
+  margin: 0 0 25px 0;
+
+}
+
+.credit_12 input[type=radio] {
+  width: 25px;
+  height: 25px;
+  margin: 0 16px 0 0;
+  display: grid;
+}
+
+
+
+
+.credit_1 label {
+  margin: 0;
+  display: contents;
+}
+
+
+
+button.accordion-button {
+  transition: 0.9s;
+}
+
+button.accordion-button.collapsed {
+  transition: 0.9s;
+  border-radius: 20px;
+  background: #F3F4F4;
+  border: none;
+
+}
+
+.accordion-button:not(.collapsed) {
+  border-radius: 20px 20px 0px 0px;
+  background: #F3F4F4;
+  transition: 0.9s;
+  border: none;
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none
+}
+
+.shadow_11 {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+
+.accordion-button::after {
+  transition: 0.5s;
+  display: none;
+}
+
+.accordion-body {
+  transition: 0.5s;
+}
+
+.selectdiv {
+  background: #11AA39;
+}
+
+.shadow_11 .pwmail {
+  padding: 20px 20px 20px 40px;
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.credit_btn {
+  width: 100%;
+  padding: 21px;
+  color: #FFF;
+  text-align: center;
+  font-family: "NeueHaasUnica";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 2px solid #000;
+  background: #000;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.credit_btn_1 {
+  padding: 21px;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  font-family: "NeueHaasUnica";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #FFF;
+
+}
+
+.bober {
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 15px 0;
+}
+
+.night_007 i {
+  color: #FFC35B;
+  margin: 8px 2px;
+  font-size: 12px;
+
+}
+
+.night_007 h3 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+.night_007 p {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 0;
+  
+}
+
+.prog-0 .prog-1 {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prog-0 .prog-2 {
+  color: #000;
+  text-align: right;
+  font-family: "NeueHaasUnicaM";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.prog span {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prog p {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prog {
+  margin: 13px 0 0 0;
+}
+
+.main_bbk .main_bbk-1 h5 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.main_bbk .main_bbk-1 p {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.main_bbk .main_bbk-1 .p_1 {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_bbk .main_bbk-1 span {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.bofgr {
+  padding: 20px 0;
+  margin: 25px 0;
+  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #D9D9D9;
+}
+
+.main_bbk-2 .btn_main_bbk {
+  color: #000;
+  text-align: center;
+  font-family: "NeueHaasUnica";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #FFF;
+  width: 190px;
+  height: 51px;
+
+}
+
+.main_bbk-2 p {
+  color: #9D9D9D;
+  text-align: right;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 36px 0;
+}
+
+.main_bbk-2 {
+  text-align: end;
+}
+
+.consed {
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 80px 0;
+  padding: 30px;
+}
+
+.main_bbk-3 h4 {
+  color: #000;
+  text-align: center;
+  font-family: "NeueHaasUnicaM";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.main_bbk-3 p {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_bbk-3 span {
+  color: #9D9D9D;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_bbk-3 .p01 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.main_bbk-4 span {
+  color: #A3A3A3;
+  text-align: center;
+  font-family: "NeueHaasUnica";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_bbk-4 p {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_bbk-4 {
+  margin-bottom: 56px;
+}
+
+
+
+
+.kjgowidthimg_2 {
+  /* width: 100%; */
+}
+
+.tab-content {
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* scrollbar-width: thin; */
+
+
+}
+
+
+.day_plan_1 .img_car-shadow {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  text-align: center;
+}
+
+.img_car-shadow_2 h6 {
+  color: #000;
+  font-family: "NeueHaasUnicaM";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 133.333% */
+  margin-bottom: 0;
+}
+
+.img_car-shadow_2 p {
+  color: #000;
+  font-family: "NeueHaasUnica";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  /* 200% */
+  margin-bottom: 0;
+}
+
+
+.tab-content p {
+  color: #222;
+  font-family: "NeueHaasUnica";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+}
+
+.day_plan_1 {
+  border-top: 1px solid #D9D9D9;
+}
+
+.tab-content .tab-pane .tader {
+  border-left: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.tab-content .tab-pane .tader-2 {
+
+  padding: 0px 0px 20px 20px;
+  /* border-right: 1px solid; */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #4A4A4A !important;
+  border-radius: 0px 80px 80px 0px;
+}
+
+.nav-pills .nav-link {
+  color: #4A4A4A;
+  font-family: "NeueHaasUnicaM";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 171.429% */
+  position: relative;
+  text-align: center;
+  left: 0px;
+  /* padding: 0 5px 0 0; */
+}
+
+
+.nav-pills .nav-link::after {
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  /* border-radius: 20px; */
+  background: #DADADA;
+  content: "";
+  left: 0px;
+  left: 23px;
+  bottom: -15px;
+}
+
+
+.nav-pills .nav-link::before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 20px;
+  background: #4A4A4A;
+  content: "";
+  left: 20px;
+  bottom: 15px;
+}
+
+p.p_trader {
+  margin: 14px 0 20px 20px;
+}
+
+
+.nav-pills .nav-link.notor::after{
+  display: none;
+} 
+
+
+.ScrollRight::-webkit-scrollbar {
+  width: 4px;
+  background-color: #f5f5f5;
+}
+
+.ScrollRight::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #434c4f;
+}
+
+.nav-pills .nav-link.active::before {
+  background-color: #fff;
+}
+
+.tader h4 {
+  background: #F3F4F4;
+  padding: 10px 28px;
+
+}
+
+.tader p_trader {
+  padding: 10px 28px;
+}
+
+/* .nav-pills .nav-link.active::after{
+  background: #fff;
+} */
+
+.hero_col_in {
+  /* width: 483px; */
+  height: 337px;
+  flex-shrink: 0;
+
+}
+
+.hero_col_in .hero_5-img_first {
+  width: 100%;
+  height: -webkit-fill-available;
+  border-radius: 12px 0 0 12px;
+}
+
+.hero_sec_1 {
+  /* width: 272px; */
+  height: 159px;
+  flex-shrink: 0;
+  margin: 0 0 19px 0;
+}
+
+.hero_sec_1 .hero_sec_1img {
+  width: 100%;
+  height: -webkit-fill-available;
+}
+
+
+.hero_sec_1 .img2,
+.hero_sec_1 .img4 {
+  border-radius: 0 12px 12px 0;
+
+}
+
+button.accordion-button.collapsed {
+  padding-right: 0;
+}
+
+
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.radio-group .accordion-body {
+  padding: 20px 20px 20px 40px;
+}
+
+
+
+/* label {
+  position: relative;
+  
+    color: #000;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+label:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.3s;
+  display: none;
+}
+
+input[type="radio"]:checked+label:before {
+  background-color: #ffff;
+  border: 5px solid #000;
+}
+
+input[type="radio"]:focus+label {
+  color: #000;
+}
+
+input[type="radio"] label {
+  color: #000;
+} */
+
+/* Neon Style */
+.shadow_11 input[type="radio"]+label:before {
+  border: 4px solid #8C8C8C;
+}
+
+.shadow_11 input[type='radio']:checked:after {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: #ffff;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 8px solid #000
+}
+
+.credit_1 {
+  display: contents;
+}
+
+.credit_1 {
+  display: flex;
+  background-color: #F3F4F4;
+  align-items: center;
+  padding: 10px 40px;
+}
+.credit_1 h2{
+  margin-bottom: 0;
+}
+
+.dora {
+  display: flex;
+}
+
+.detail_01main a{
+  text-decoration: unset;
+}
+.detail_02main a:hover > .main_det{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transition: 0.5s;
+}
+
+.AddGuestandRoom{
+  width: 395px;
+/* height: 185px; */
+flex-shrink: 0;
+}
+
+.mount-point-2{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+  align-items: center;
+}
+
+.mount-point-2 button{
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.mount-point-2 h6{
+  color: #2A2A2E;
+font-family: "NeueHaasUnicaM";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+/* line-height: 24px;  */
+margin-bottom: 0px;
+}
+
+
+.mount-point-2 p{
+  color: #9C9C9C;
+font-family: "NeueHaasUnica";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+margin-bottom: 0;
+}
+
+.mount-point-2 button i{
+  font-size: 15px;
+  color: #A9B3C9;
+}
+
+.mount-point-2 button{
+  /* font-size: 15px; */
+  color: #A9B3C9;
+  border: 2px solid #A9B3C9;
+  background-color: #fff;
+}
+
+.mount-point-2 span{
+  /* color:#A9B3C9; */
+  font-family: "NeueHaasUnicaM";
+font-size: 18px;
+margin: 0 9px;
+}
+
+/* checkability */
+
+
+.popular_filter.stars1 svg {
+  margin: 0 2px;
+  font-size: 17px;
+  color: #FFC35B;
+}
+.sgqw_icon svg {
+  margin: 0 2px;
+  font-size: 17px;
+  color: #FFC35B;
+}
+
+.detail_02main svg {
+  margin: 0 2px;
+  font-size: 17px;
+  color: #FFC35B;
+} 
+
+
+/* media Query */
+@media (max-width: 1399.98px) {
+  .bg-white03 {
+    padding: 8px 15px;
+    }
+
+    .AddGuestandRoom {
+      bottom: -212px;
+      right: 111px;
+  }
+
+  .main_det_side p {
+     margin: 0 0 107px 0;
+  }
+
+  .mBtom {
+    margin-bottom: 60px;
+}
+  .Box1 {  
+     width: 95%;
+ }
+
+  .Box1,
+  .Box2,
+  .Box3 {
+    height: 540px;
+    /* width: 540px; */
+
+  }
+
+  .det_cen .couple_fred_para {
+
+    margin: 42px 0 0 0;
+  }
+
+}
+
+@media (max-width: 1199.98px) {
+  .bg-white03 {
+    padding: 20px 15px;
+}
+  .bg-white, .bg-white02 {
+ 
+    padding: 20px 15px;
+ 
+}
+  .react-datepicker__input-container input {
+    width: 100px !important;
+ 
+}
+.AddGuestandRoom {
+  bottom: -212px;
+  z-index: 1;
+  right: 21px;
+}
+
+  .main_det_side p {
+    margin: 0 0 145px 0;
+}
+
+  .mBtom {
+    margin-bottom: 26px;
+}
+
+  .BoxHWImg {
+    height: 340px;
+    width: 100%;
+    overflow: hidden;
+    background-size: inherit;
+    align-items: center;
+    display: flex;
+}
+  .hero-text {
+    width: 65%;
+  }
+
+
+
+  .beachl2 {
+    height: 419px;
+    width: 100%;
+  }
+
+  .det_cen .couple_fred_para {
+
+    margin: 76px 0 0 0;
+  }
+
+  .credit_btn_1 {
+
+    font-size: 18px;
+
+  }
+
+  .beachl h3 {
+    font-size: 25px;
+  }
+
+  .filter_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .AddGuestandRoom {
+    right: 213px;
+}
+
+  .bg-white03 {
+    padding: 20px 15px;
+    margin: 30px 0 0 0;
+}
+  .nav-pills .nav-link {
+     font-size: 12px;
+ }
+ .nav-pills .nav-link::before {
+   left: 9px;
+ }
+ .nav-pills .nav-link::after {
+   height: 33px;
+    left: 12px;
+  bottom: -17px;
+}
+ 
+
+  .Box1,
+  .Box2,
+  .Box3 {
+    height: 337px;
+    width: 337px;
+
+  }
+
+  .hero_sec_1 .hero_sec_1img {
+    border-radius: 12px;
+  }
+
+  .hero_col_in .hero_5-img_first {
+    border-radius: 12px;
+  }
+
+  .hero_col_in {
+    text-align: center;
+  }
+
+  .hero_sec_1 .hero_sec_1img {
+    width: 60%;
+    /* height: auto; */
+
+  }
+
+  .hero_col_in .hero_5-img_first {
+    width: 100%;
+    height: 1005;
+  }
+
+  .hero_sec_1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .det_cen .couple_fred_para {
+
+    margin: 45px 0 0 0;
+  }
+
+  .beachl2 {
+    height: 370px;
+    width: 100%;
+  }
+
+  .check_main01 .check_man01 h3 {
+    font-size: 18px;
+  }
+
+  .check_main01 .check_man01 .buttoom_control {
+    display: block;
+
+
+  }
+
+  .check_main01 .check_man01 .buttoom_control .buttoom_1 {
+
+    margin: 0 20px 18px 0;
+  }
+
+
+  .check_mainn h4 {
+    font-size: 16px;
+  }
+
+  .check_mainn h5 {
+    font-size: 14px;
+
+  }
+
+  .beachl h3 {
+    font-size: 17px;
+  }
+
+  .beachl p {
+
+    font-size: 14px;
+  }
+
+  .det_img {
+    text-align: center;
+    width: 50%;
+    /* height: 215px; */
+    margin: 0 auto 30px auto;
+
+  }
+
+
+
+
+
+
+
+  .main_det_side {
+    text-align: start;
+    margin: 0px 0 0 0;
+  }
+
+  .main_det_side p {
+    width: 80%;
+    margin: 0 auto 102px auto;
+  }
+
+  .det_cen {
+    width: 95%;
+    padding: 0 20px 0 0;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .capp111 img {
+    width: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.AddGuestandRoom {
+  right: 32px;
+}
+
+ 
+  
+.bg-white02 {
+ 
+  
+  margin: 30px 0 0 0;
+
+}
+
+  .bg-white {
+        border-radius: 10px;}
+
+  .travl_contro.ml {
+    margin-left: 0;
+}
+  .nav-pills .nav-link {
+    font-size: 14px;
+}
+.nav-pills .nav-link::before {
+  left: 75px;
+}
+.nav-pills .nav-link::after {
+  height: 33px;
+   left: 78px;
+ bottom: -17px;
+}
+
+
+  .main_det_side p {
+    /* margin: 0 0 15px 0; */
+    width: 80%;
+    margin: 0 auto 25px auto;
+}
+
+  .main_det_side {
+    margin: 40px 0 0 0;
+  }
+
+  .BoxHWImg {
+    height: 246px;
+    width: 100%;
+    overflow: hidden;
+    background-size: inherit;
+    align-items: center;
+    display: flex;
+}
+  .hero-text {
+    width: 95%;
+  }
+
+  .Box1,
+  .Box2,
+  .Box3 {
+    height: 246px;
+    /* width: 246px; */
+
+  }
+
+  .hero_col_in {
+    width: 100%;
+    margin: 0 0 30px 0;
+
+  }
+
+  .pl-0 span {
+    padding: 0 20px;
+  }
+
+  .main_bbk-4 span {
+    font-size: 13px;
+  }
+
+  .main_bbk-4 p {
+    font-size: 15px;
+  }
+
+  .kjgowidthimg_2 {
+    width: auto;
+  }
+
+
+  .travel_iti_main .btn_last {
+
+    font-size: 16px;
+
+    padding: 12px;
+
+  }
+
+  .trav2 .travl_ul .travl_contro ul li {
+    font-size: 14px;
+  }
+
+  .trav2 .travl_ul .travl_contro h4 {
+    font-size: 18px;
+    margin: 30px 0 0 0;
+  }
+
+  .trav2 p {
+    font-size: 15px;
+  }
+
+  .trav2 .travl_ul {
+    display: block;
+
+  }
+
+  .beachl h3 {
+    font-size: 25px;
+  }
+
+  .det_cen {
+    width: 95%;
+    border-right: none;
+    padding: 0 20px 0 0;
+  }
+
+
+  .beachl p {
+
+    font-size: 15px;
+  }
+
+  .filter_flex {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .AddGuestandRoom {
+ 
+    right: 167px;
+}
+  .AddGuestandRoom {
+    width: 300px;
+    /* height: 185px; */
+    flex-shrink: 0;
+}
+
+  .mBtom {
+    margin-bottom: 0px;
+}
+  .BoxHWImg {
+    height: 246px;
+    width: 80%;
+    overflow: hidden;
+    background-size: inherit;
+    align-items: center;
+    display: flex;
+}
+
+  .Box1, .Box2, .Box3 {
+    height: 240px;
+    /* width: 300px; */
+    margin: 30px auto 0 auto;
+}
+
+  .main_bbk-3 .p01 {
+
+    font-size: 15px;
+
+  }
+
+  .main_bbk-3 p {
+
+    font-size: 15px;
+
+  }
+
+  .main_bbk .main_bbk-1 p {
+    font-size: 14px;
+  }
+
+  .main_bbk .main_bbk-1 h5 {
+    font-size: 20px;
+  }
+
+  .credit_btn_1 {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .credit_btn {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .det_img .w-100 {
+    width: 70% !important;
+  }
+
+}
+@media (max-width: 489.92px) {
+  .AddGuestandRoom {
+ 
+    right: 60px;
+}
+  .card {
+    width: 90%;
+  }
+
+  .dora {
+    display: block;
+
+  }
+
+  .dora .mr-5 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 320.98px) {
+  .AddGuestandRoom {
+ 
+    right: 60px;
+}
+
+  .beachl h3 {
+    font-size: 20px;
+  }
+
+  .beachl p {
+
+    font-size: 12px;
+  }
+
+}
+
+
