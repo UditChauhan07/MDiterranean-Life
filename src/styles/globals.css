@@ -170,9 +170,16 @@ a {
   margin: 52px 0 0 0;
 }
 
+ 
+
+
+.day_plan_1 h4{
+  padding: 10px 28px;
+}
+
 .bg-white {
   background-color: #fff !important;
-  padding: 8px 15px;
+  padding: 0px 0px;
   border-radius: 10px 0px 0px 10px;
   /* border-right: 1px solid #9C9C9C; */
   display: flex;
@@ -186,6 +193,10 @@ a {
   border-radius: 0px 10px 10px 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 8px 0px 8px 0px;
 
+}
+
+.nav_las::after{
+display: none;
 }
 
 .react-datepicker__input-container input {
@@ -1007,7 +1018,7 @@ section.credit_12 {
 }
 
 .credit_12 label {
-  margin: 0px 0 3px 0;
+  margin: 20px 0 6px 0;
 }
 
 
@@ -1103,7 +1114,7 @@ button.accordion-button.collapsed {
 
 .credit_btn {
   width: 100%;
-  padding: 21px;
+  padding: 19px;
   color: #FFF;
   text-align: center;
   font-family: "NeueHaasUnica";
@@ -1560,7 +1571,7 @@ button.accordion-button.collapsed {
 }
 
 .radio-group .accordion-body {
-  padding: 20px 20px 20px 40px;
+  padding: 20px 40px 20px 40px;
 }
 
 

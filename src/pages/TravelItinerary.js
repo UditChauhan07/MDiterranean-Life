@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import map002 from "../Images/mapper0001.png"
 import car_black from "../Images/Car_black.png"
 import Beach_121 from "../Images/beach_121.png"
@@ -8,14 +8,43 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Link from "next/link";
 import { BsFillStarFill } from 'react-icons/bs'
 import Herobanner1 from "./Herobanner1"
+// import Script  from "next/script"
+// import {Helmet} from "react-helmet"
+import Col from 'react-bootstrap/Col';
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Tab from 'react-bootstrap/Tab';
 
 
 function Travelingitinerary() {
-
-
+  // // const [ active, setActive] = useState(1);
+  // return(
+  //   <>
+  //   <p onClick={()=>setActive(1)}>lorem</p>
+  //   <p onClick={()=>setActive(2)}>lorem-1</p>
+  //   <p onClick={()=>setActive(3)}>lorem-100</p>
+  //   {active ==1 &&<Image src={car_black}/>}
+  //   {active ==2 &&<p>yes2</p>}
+  //   {active ==3 &&<p>yes3</p>}
+  //   </>
+  // )
   return (
     <>
+
+{/* <Helmet>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  
+  </Helmet> */}
+
+
+
+
+ 
+{/* export default LeftTabsExample; */}
+
     <Herobanner1/>
+
     
       <section className="travel_itinary">
         <div className="container">
@@ -86,31 +115,31 @@ function Travelingitinerary() {
  
    
 
-    <div class="row">
-      <div class="col-md-3 sylkj">
-      <h4>Day Plan</h4>
-       
-        <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link   active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-       
-            
-            <span class="font-weight-bold small text-uppercase">02 Aug, Tue</span></a>
-
-          <a class="nav-link  " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-           
-            <span class="font-weight-bold small text-uppercase">03 Aug, Wed</span></a>
-
-          <a class="nav-link notor " id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-            
-            <span class="font-weight-bold small text-uppercase">04 Aug, Thr</span></a>
-
-         
-        </div>
-      </div>
-
-      <div class="col-md-9">
-   
-        <div class="tab-content ScrollRight" id="v-pills-tabContent " >
+    <div class="">
+      <div class=" ">
+      
+      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Row>
+        <Col sm={3}>
+        <h4>Day Plan</h4>
+          <Nav variant="pills" className="flex-column">
+            <Nav.Item>
+              <Nav.Link eventKey="first">
+              02 Aug, Tue</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="second">03 Aug, Wed</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link className="nav_las" eventKey="third">
+              04 Aug, Thr
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Col>
+        <Col sm={9}>
+          <Tab.Content>
+            <Tab.Pane eventKey="first">  <div class="tab-content ScrollRight" id="v-pills-tabContent " >
           <div class="tab-pane fade rounded  show active " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
            <div className="tader">
             <h4 class=" mb-4">Day 1 - Florida</h4>
@@ -142,7 +171,7 @@ function Travelingitinerary() {
             
             <div className="row tader-2">
                 <div className="col-xl-5 col-5">
-                  <div className="img_car-shadow">
+                  <div className="">
                   <Image className="w-100" src={Beach_121}/>
                   </div>
                                   
@@ -172,7 +201,7 @@ function Travelingitinerary() {
           
             <div className="row tader-2 align-items-center">
                 <div className="col-xl-5 col-5">
-                  <div className="img_car-shadow">
+                  <div className="">
                   <Image className="w-100 " src={orlando}/>
                   </div>
                                   
@@ -203,18 +232,86 @@ function Travelingitinerary() {
 
           
 
-          <div class="tab-pane   rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-            <h4 class=" mb-4">Day 2 - Florida</h4>
-            <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet,  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-
-          <div class="tab-pane  rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-            <h4 class=" mb-4">Day 3 - Florida</h4>
-            <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+        
 
         
        </div>
+       </Tab.Pane>
+
+
+
+            <Tab.Pane eventKey="second">
+
+          <div class="tab-pane fade rounded  show active " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+           <div className="tader">
+            <h4 class=" mb-4">Day 2 - Florida</h4>
+
+            <p className="p_trader">Transfer from Airport To Capri Boat  </p>
+            <div className="row tader-2">
+                <div className="col-xl-5 col-5">
+                  <div className="img_car-shadow">
+                  <Image className=" " src={car_black} />
+                  </div>
+                                  
+                </div>
+                <div className="col-xl-7 col-7">
+                <div className="img_car-shadow_2">
+                  <h6>Private Transfer</h6>
+                  <p>Etios, Nissan or similar</p>
+                  <br/>
+                  
+                  <h6>Facilities</h6>
+                  <p>3 seater | 2 Luggage Bags | first Aid</p>
+                </div>
+            </div>
+            </div>
+          </div>
+          </div>
+
+            </Tab.Pane>
+
+
+
+            {/* 3 */}
+            <Tab.Pane eventKey="third">
+
+            
+          <div class="tab-pane fade rounded  show active " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+           <div className="tader">
+            <h4 class=" mb-4">Day 3 - Florida</h4>
+
+            <p className="p_trader">Transfer from Airport To Capri Boat  </p>
+            <div className="row tader-2">
+                <div className="col-xl-5 col-5">
+                  <div className="img_car-shadow">
+                  <Image className=" " src={car_black} />
+                  </div>
+                                  
+                </div>
+                <div className="col-xl-7 col-7">
+                <div className="img_car-shadow_2">
+                  <h6>Private Transfer</h6>
+                  <p>Etios, Nissan or similar</p>
+                  <br/>
+                  
+                  <h6>Facilities</h6>
+                  <p>3 seater | 2 Luggage Bags | first Aid</p>
+                </div>
+            </div>
+            </div>
+          </div>
+          </div>
+            </Tab.Pane>
+          </Tab.Content>
+        </Col>
+      </Row>
+    </Tab.Container>
+       
+      </div>
+
+      <div class="col-md-9">
+   
+      
       </div> 
     
   </div>

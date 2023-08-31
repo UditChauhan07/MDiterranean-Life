@@ -80,7 +80,7 @@ function Credit() {
                               </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                              <Image className="w-75" src={Blank_credit} alt=""/> 
+                              <Image className="w-100" src={Blank_credit} alt=""/> 
                             </div>
                           </div>
                         </Accordion.Body>
