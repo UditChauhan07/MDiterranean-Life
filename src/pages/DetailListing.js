@@ -112,7 +112,8 @@ function DetailPagelisting() {
 
               <div className="col-xl-9 col-lg-12 col-md-12">
                 <div className="detail_02main">
-                  <Link href="/TravelItinerary" legacyBehavior>
+                {/* legacyBehavior */}
+                  <Link href="/TravelItinerary" >
                     <div className="main_det">
                       <div className="row">
                         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">

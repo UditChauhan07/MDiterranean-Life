@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import capp1 from "../Images/cpa01.png"
 import capp2 from "../Images/cpa02.png"
 import capp3 from "../Images/cpa03.png"
@@ -6,13 +6,19 @@ import capp4 from "../Images/cpa04.png"
 import Image from "next/image"
 import 'bootstrap/dist/css/bootstrap.css'
 import BannerCheckAvailability from "../pages/CheckAvailability";
+import Quantuti from "./Quantuti"
+
 // import Link from "next/link";
 
-function Checkabli() {
+  
+  function Checkabli() {
+    
   return (
     
     <>
+    {/* <Quantuti></Quantuti> */}
     <BannerCheckAvailability/>
+   
       <div className="CheckAvailability shadow-none">
 <div className="container">
                     <div className="check_detaipl">
@@ -42,7 +48,7 @@ function Checkabli() {
 
                                          <div className="col-lg-3 col-md-6 col-sm-12 capp111">
                                          <Image className="" src={capp4}/>
-                                         </div>
+                                         </div> 
                         </div>
 
 
@@ -63,6 +69,13 @@ function Checkabli() {
                         </div>
                         </div>
                         </div>
+
+
+ 
+ 
+ 
+
+ 
     
     </>
   )

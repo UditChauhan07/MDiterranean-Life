@@ -27,6 +27,18 @@ function BannerCheckAvailability() {
             <div id="mount-point">
                 <div className="mount-point-1">
                     <div className="mount-point-2">
+                        {/* khwef */}
+
+                        <div className="input-group">
+  <div className="input-group-prepend">
+    <button className="btn btn-outline-primary" type="button" onClick={decNum}>-</button>
+  </div>
+  <input type="text" className="form-control" value={num} onChange={handleChange}/>
+  <div className="input-group-prepend">
+    <button className="btn btn-outline-primary" type="button" onClick={incNum}>+</button>
+  </div>
+</div>
+                        {/* odijfd */}
                         <div><h6>Room</h6></div>
                         <div><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
                     </div>
@@ -134,6 +146,8 @@ function BannerCheckAvailability() {
                 </div>
 
             </section >
+
+            
             </>
     )
 }

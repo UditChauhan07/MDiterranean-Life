@@ -1242,7 +1242,7 @@ button.accordion-button.collapsed {
 
 .main_bbk .main_bbk-1 .p_1 {
   color: #000;
-  font-family: "NeueHaasUnica";
+  font-family: "NeueHaasUnicaM";
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -1376,7 +1376,7 @@ button.accordion-button.collapsed {
 
 .tab-content {
   height: 500px;
-  overflow: scroll;
+  /* overflow: scroll; */
   overflow-x: hidden;
   /* scrollbar-width: thin; */
 
@@ -1427,6 +1427,7 @@ button.accordion-button.collapsed {
 
 .day_plan_1 {
   border-top: 1px solid #D9D9D9;
+  padding-bottom: 18px;
 }
 
 .tab-content .tab-pane .tader {
@@ -1487,7 +1488,7 @@ button.accordion-button.collapsed {
 }
 
 p.p_trader {
-  margin: 14px 0 20px 20px;
+  margin: 0px 0 20px 20px;
 }
 
 
@@ -1527,7 +1528,7 @@ p.p_trader {
 
 .hero_col_in {
   /* width: 483px; */
-  height: 337px;
+  height: 352px;
   flex-shrink: 0;
 
 }
@@ -1542,7 +1543,7 @@ p.p_trader {
   /* width: 272px; */
   height: 159px;
   flex-shrink: 0;
-  margin: 0 0 19px 0;
+  margin: 0 0 34px 0;
 }
 
 .hero_sec_1 .hero_sec_1img {
@@ -1572,6 +1573,13 @@ button.accordion-button.collapsed {
 
 .radio-group .accordion-body {
   padding: 20px 40px 20px 40px;
+}
+
+.custom-select:focus {
+  border-color: #000;
+  outline: 0;
+  box-shadow: none;
+  border: 2px solid #000;
 }
 
 
@@ -1647,7 +1655,7 @@ input[type="radio"] label {
 }
 
 .detail_01main a{
-  text-decoration: unset;
+  text-decoration: none !important;
 }
 .detail_02main a:hover > .main_det{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
