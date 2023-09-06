@@ -189,7 +189,7 @@ a {
 
 .bg-white02 {
   background-color: #fff !important;
-  padding: 8px 15px;
+  padding: 0px 15px;
   border-radius: 0px 10px 10px 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 8px 0px 8px 0px;
 
@@ -1242,7 +1242,7 @@ button.accordion-button.collapsed {
 
 .main_bbk .main_bbk-1 .p_1 {
   color: #000;
-  font-family: "NeueHaasUnicaM";
+  font-family: "NeueHaasUnicaMq2";
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -1709,11 +1709,14 @@ margin-bottom: 0;
   color: #A9B3C9;
 }
 
-.mount-point-2 button{
+.mount-point-2 button {
   /* font-size: 15px; */
   color: #A9B3C9;
   border: 2px solid #A9B3C9;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mount-point-2 span{

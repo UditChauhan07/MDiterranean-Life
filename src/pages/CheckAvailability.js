@@ -29,18 +29,9 @@ function BannerCheckAvailability() {
                     <div className="mount-point-2">
                         {/* khwef */}
 
-                        <div className="input-group">
-  <div className="input-group-prepend">
-    <button className="btn btn-outline-primary" type="button" onClick={decNum}>-</button>
-  </div>
-  <input type="text" className="form-control" value={num} onChange={handleChange}/>
-  <div className="input-group-prepend">
-    <button className="btn btn-outline-primary" type="button" onClick={incNum}>+</button>
-  </div>
-</div>
                         {/* odijfd */}
                         <div><h6>Room</h6></div>
-                        <div><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
+                        <div className="d-flex"><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
                     </div>
                 </div>
 
@@ -50,7 +41,7 @@ function BannerCheckAvailability() {
                             <p>Ages 18 or above</p>
                         </div>
 
-                        <div><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
+                        <div className="d-flex"><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
                     </div>
                 </div>
 
@@ -60,7 +51,7 @@ function BannerCheckAvailability() {
                             <p>Ages 03 to 17</p>
                         </div>
 
-                        <div><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
+                        <div className="d-flex"><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
                     </div>
                 </div>
             </div>

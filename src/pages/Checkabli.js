@@ -6,7 +6,6 @@ import capp4 from "../Images/cpa04.png"
 import Image from "next/image"
 import 'bootstrap/dist/css/bootstrap.css'
 import BannerCheckAvailability from "../pages/CheckAvailability";
-import Quantuti from "./Quantuti"
 
 // import Link from "next/link";
 
@@ -16,7 +15,7 @@ import Quantuti from "./Quantuti"
   return (
     
     <>
-    {/* <Quantuti></Quantuti> */}
+    
     <BannerCheckAvailability/>
    
       <div className="CheckAvailability shadow-none">
