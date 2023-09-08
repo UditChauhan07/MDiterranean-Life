@@ -8,6 +8,7 @@ import Image from "next/image"
  import DateIcon from "../Images/Date-icon.png";
 import GuestIcon from "../Images/Guest-icon.png"
 import { FaPlus } from "react-icons/fa6";
+import IncDecCounter from './Quannum'
 import { FaMinus } from "react-icons/fa6"
 function BannerCheckAvailability() {
     const [startDate, setStartDate] = useState(new Date());
@@ -24,6 +25,7 @@ function BannerCheckAvailability() {
     }
     const Results = () => (
         <div id="results" className="AddGuestandRoom">
+            
             <div id="mount-point">
                 <div className="mount-point-1">
                     <div className="mount-point-2">
@@ -31,7 +33,8 @@ function BannerCheckAvailability() {
 
                         {/* odijfd */}
                         <div><h6>Room</h6></div>
-                        <div className="d-flex"><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
+                        <div className="d-flex"><IncDecCounter></IncDecCounter></div>
+                        
                     </div>
                 </div>
 
@@ -41,7 +44,7 @@ function BannerCheckAvailability() {
                             <p>Ages 18 or above</p>
                         </div>
 
-                        <div className="d-flex"><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
+                        <div className="d-flex"><IncDecCounter></IncDecCounter></div>
                     </div>
                 </div>
 
@@ -51,7 +54,7 @@ function BannerCheckAvailability() {
                             <p>Ages 03 to 17</p>
                         </div>
 
-                        <div className="d-flex"><button><FaMinus/></button> <span>1</span> <button><FaPlus/></button></div>
+                        <div className="d-flex"><IncDecCounter></IncDecCounter></div>
                     </div>
                 </div>
             </div>
@@ -95,9 +98,9 @@ function BannerCheckAvailability() {
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 ">
                                     <div className="bg-white03">
-                                        <div className="InnerIcon">
+                                        <div onClick={showResults ? onClick2 : onClick} className="InnerIcon">
                                             <Image className="img-fluid" src={GuestIcon}/> 
-                                            <div onClick={showResults ? onClick2 : onClick} className="Guest">
+                                            <div  className="Guest">
                                                 <p className="Adults">2 Adults</p>
                                                 <p className="Rooms">1 room</p>
                                             </div>

@@ -14,20 +14,21 @@ import { BsGrid3X3GapFill } from 'react-icons/bs';
 import { BsFillStarFill } from 'react-icons/bs'
 // import { AiFillStar } from 'react-icons/fa';
 import BannerCheckAvailability from "../pages/CheckAvailability";
-
+import Checkbox from './checkbox'
 
 
 
 function DetailPagelisting() {
   return (
     <>
+    
     <BannerCheckAvailability/>
       <section>
         <div className="container">
           <div className="detail_01main">
             <div className="row">
               <div className="col-xl-3 col-lg-12 col-md-12 col-12">
-                <div className="filter_main">
+                {/* <div className="filter_main">
                   <div className="filter_write">
                     <p>FILTERS</p>
                     <button> CLEAR</button>
@@ -107,7 +108,8 @@ function DetailPagelisting() {
                       <br />
                     </div>
                   </div>
-                </div>
+                </div> */}
+                <Checkbox></Checkbox>
               </div>
 
               <div className="col-xl-9 col-lg-12 col-md-12">
