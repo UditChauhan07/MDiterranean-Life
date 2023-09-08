@@ -98,9 +98,9 @@ function BannerCheckAvailability() {
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 ">
                                     <div className="bg-white03">
-                                        <div onClick={showResults ? onClick2 : onClick} className="InnerIcon">
+                                        <div  className="InnerIcon">
                                             <Image className="img-fluid" src={GuestIcon}/> 
-                                            <div  className="Guest">
+                                            <div onClick={showResults ? onClick2 : onClick}  className="Guest">
                                                 <p className="Adults">2 Adults</p>
                                                 <p className="Rooms">1 room</p>
                                             </div>
